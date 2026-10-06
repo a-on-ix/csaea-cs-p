@@ -317,16 +317,6 @@ school = "CSAEA"
 cart = [12, 5, 30, 8]
 print (len(cart))
 
-
-
-
-groceries = ["milk", "eggs", "bread",]
-newstuffs = ["cheese", "rice", "apples"]
-groceries.append = "cheese"
-groceries.append = "rice"
-groceries.append = "apples"
-print (groceries)
-
 students = 23
 slices_per_student = 2
 slices_per_pizza = 8
