@@ -31,24 +31,33 @@ print(count)
 count = count + count
 print(count)
 
-# Challenge 1: Rename Variables  
-# Change the variable names x, y, z below to more descriptive names. 
 
-x = "Radia Perlman"
-y = 34
-z = "Networking Engineer"
+# Challenge 1: Rename Variables  
+# Change the variable names x, y, z below to more descriptive names.
+
+Name = "Radia Perlman"
+Age = 34
+Profession = "Networking Engineer"
 
 # Challenge 2: Update Variables  
 # Create a variable called 'count' with a value of 10.  
 # Use another variable to increase 'count' by 5
 # Print the result
 
+count = 10
+add = 5
+count = count + add
+print (count)
+
 # Challenge 3: Swap Variables  
 # Given variables num = 4 and y = "hello".  
-# Swap the values so that x = "hello" and y = 4. 
+# Swap the values so that num = "hello" and y = 4.
 # Use a temporary variable.  
-# Hint: You will need to create one new variable.  
+# Hint: You will need to create one new variable.
 
-Count = 10
-more_count = 5
-print (Count + more_count)
+num = 4
+y = "hello"
+num = "hello"
+y = 4
+
+print(f"num is now {num} and y is now {y}")
