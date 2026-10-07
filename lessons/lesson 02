@@ -23,7 +23,7 @@ print(x + y)
 
 # variables are flexible. you create or update another variable, like so:
 count = 10 
-print(count)
+print (count)
 count_down = count - 1
 print(count_down)
 count = count_down
