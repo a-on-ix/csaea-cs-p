@@ -1,0 +1,51 @@
+# USER INPUT IN PYTHON
+#print("<PROMPT>")
+print()
+
+name = input("Enter your name: ")
+print(f"Hello {name}")
+
+print(type(name))
+
+age = input("Enter your age: ")
+print(f"Your age is {age}")
+
+print(type(age))
+
+age_converted = int(age)
+print(type(age_converted))
+
+height = float(input("Enter your height: "))
+print(f"You are {height} meters tall")
+print(height + 1)
+
+# Challenge 1: Favorite Color
+# Ask the user for their favorite color and print out a message using it.
+
+color = input("what's your favorite color: ")
+print(f"You favorite color is {color}")
+
+# Challenge 2: Adding Two Numbers
+# Ask the user for two numbers, add them together, and print the result.
+
+number1 = float(input("Enter a number: "))
+number2 = float(input("Enter another number: "))
+total = number1 + number2
+print(f"{number1} + {number2} is {total}")
+
+# Challenge 3: Circle Area from User Input
+# Ask the user for the diameter of a circle, then calculate and print the area.
+# pi radius squared 
+import math 
+PI = math.pi
+
+diameter = float(input("Enter the diameter of a circle: "))
+radius = diameter / 2
+circle_area = PI * radius * radius
+math.pow
+print(f"You are {circle_area} meters tall")
+print(height + 1)
+
+# Challenge 4: Custom Die Roll
+# Ask the user to enter how many sides the die should have.
+# Then simulate rolling the die once and print the result.
